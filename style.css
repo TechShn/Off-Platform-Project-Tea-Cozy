@@ -4,13 +4,159 @@
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
+    opacity: 0.95;
     text-align: center;
 }
-
-header {
-    
+body {
+    margin: 0px;
 }
 
-img {
+h2 {
+    font-size: 32px;
+    margin: 10px;
+}
+
+h4 {
+    margin: 10px;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 2;
+}
+
+.logo-title {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 68px;
+    list-style: none;
+    text-decoration: underline;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    padding: 0px 20px 0px 20px;
+
+}
+/* Main*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 68px;
+}
+/* block-mission*/
+.block-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+}
+
+.img-mission {
+    position: absolute;
+    height: 700px;
+    width: 1200px;
+}
+
+.txt-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 1200px;
+    height: 90px;
+}
+
+.mission h4 {
+    margin: 0px;
+}
+/* block TOM*/
+.teaOfMonth {
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.steeping {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+}
+
+.block-steeping {
+    margin: 10px;
+}
+
+.img-steeping {
+    height: 200px;
+    width: 300px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 1200px;
+    background-image: url(./ressource/images/img-locations-background.jpg);
+    background-size: 1200px 700px ;
+    padding: 80px;
+    object-fit: contain;
+}
+
+.location h2{
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.img-location {
+    position: absolute;
+    height: 500px;
+}
+
+.sqare-location  {
+    width: 300px;
+    margin: 0px 15px 0px 15px;
+    opacity: 1;
+}
+
+.block-location {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: transparent;
+}
+
+.block-location ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.block-location ul li{
+    margin: 15px 15px 40px 15px;
+}
+
+footer {
+    position: relative;
+    top: 68px;
+    height: 200px;
+}
+
+.left {
+    text-align: left;
 }
