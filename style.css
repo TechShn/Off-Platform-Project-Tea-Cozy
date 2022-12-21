@@ -72,6 +72,7 @@ main {
     position: absolute;
     height: 700px;
     width: 1200px;
+    border-radius: 10px;
 }
 
 .txt-mission {
@@ -105,6 +106,7 @@ main {
 .img-steeping {
     height: 200px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .location {
@@ -113,6 +115,7 @@ main {
     justify-content: center;
     height: 500px;
     width: 1200px;
+    border-radius: 10px;
     background-image: url(./ressource/images/img-locations-background.jpg);
     background-size: 1200px 700px ;
     padding: 80px;
@@ -131,6 +134,7 @@ main {
 
 .sqare-location  {
     width: 300px;
+    border-radius: 10px;
     margin: 0px 15px 0px 15px;
     opacity: 1;
 }
